@@ -1,0 +1,337 @@
+ /* Custom Styles for Hero Section */
+ .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .carousel-caption h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .carousel-caption p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+
+  .carousel-caption .btn-read-more {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .carousel-caption .btn-read-more:hover {
+    background-color: #0056b3;
+  }
+
+  /* Overlay for darkening the background images */
+  .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% black overlay */
+    z-index: 1;
+  }
+
+  .carousel-inner {
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Adjust text color in the slider */
+  .carousel-caption h1, .carousel-caption p {
+    z-index: 3;
+  }
+
+  /* Customize carousel controls */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007bff; /* Blue arrow color */
+  }
+
+  /* Customize indicators */
+  .carousel-indicators li {
+    background-color: #007bff;
+  }
+
+  .carousel-indicators .active {
+    background-color: #0056b3;
+  }
+
+  /* Custom styles for the About Us section */
+  .about-us-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+
+  .about-us-heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .tab-content {
+    margin-top: 20px;
+  }
+
+  .tab-pane h4 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .tab-pane p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .tab-pane .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+   /* Custom styles for the Services section */
+   .services-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+
+  .services-heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .services-description {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .service-box {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s ease;
+  }
+
+  .service-box:hover {
+    transform: translateY(-10px);
+  }
+
+  .service-box i {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+
+  .service-box h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .service-box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .service-box .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #007bff;
+  }
+
+  .contact-details p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .contact-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+
+  .social-buttons a {
+    margin-right: 15px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .social-buttons a:hover {
+    color: #007bff;
+  }
+
+  .btn-social {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+
+  .btn-facebook:hover {
+    background-color: #2d4373;
+  }
+
+  .btn-twitter {
+    background-color: #1da1f2;
+    color: white;
+  }
+
+  .btn-twitter:hover {
+    background-color: #0c85d0;
+  }
+
+  .btn-instagram {
+    background-color: #e4405f;
+    color: white;
+  }
+
+  .btn-instagram:hover {
+    background-color: #c13584;
+  }
+
+  .btn-linkedin {
+    background-color: #0077b5;
+    color: white;
+  }
+
+  .btn-linkedin:hover {
+    background-color: #005b8c;
+  }
+
+  /* Media Queries for responsiveness */
+  @media (max-width: 767px) {
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .contact-details p {
+      font-size: 1rem;
+    }
+    
+    .social-buttons a {
+      font-size: 1rem;
+      margin-right: 10px;
+    }
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+.product-card .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.product-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Hover effect */
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive */
+.product-section {
+    padding: 60px 0;
+}
+
+.product-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}

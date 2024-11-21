@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe & Loom</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylep.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Brand Name (Left side) -->
+      <a class="navbar-brand" href="#">Luxe & Loom</a>
+      
+      <!-- Toggle Button for Mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Nav Links (Center) -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Buy Now Button (Right side) -->
+      <a href="#" class="btn btn-primary">Buy Now</a>
+    </div>
+  </nav>
+
+    <!-- Hero Section with Carousel -->
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Carousel Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('https://via.placeholder.com/1600x900');">
+        <div class="carousel-caption">
+          <h1>Welcome to Our Website</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="btn-read-more">Read More</a>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://via.placeholder.com/1600x900/ff7f7f');">
+        <div class="carousel-caption">
+          <h1>Discover Our Products</h1>
+          <p>Nulla facilisi. Mauris vulputate gravida leo sit amet luctus. Integer ac sapien in urna vehicula bibendum a ut augue.</p>
+          <a href="#" class="btn-read-more">Read More</a>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://via.placeholder.com/1600x900/77cc77');">
+        <div class="carousel-caption">
+          <h1>Join Our Community</h1>
+          <p>Curabitur eleifend nulla at sem sodales, id fermentum nunc pretium. Ut in pharetra libero. Integer posuere nunc non neque gravida.</p>
+          <a href="#" class="btn-read-more">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+     <!-- New In Section -->
+  <section class="container my-5">
+    <h2 class="section-title">New In</h2>
+    <div class="row new-in-section">
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 1" class="product-image">
+        <div class="product-price">$29.99</div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 2" class="product-image">
+        <div class="product-price">$19.99</div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 3" class="product-image">
+        <div class="product-price">$49.99</div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 4" class="product-image">
+        <div class="product-price">$39.99</div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 5" class="product-image">
+        <div class="product-price">$29.99</div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 6" class="product-image">
+        <div class="product-price">$19.99</div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 7" class="product-image">
+        <div class="product-price">$49.99</div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/200x200" alt="Product 8" class="product-image">
+        <div class="product-price">$39.99</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop by Category Section -->
+  <section class="container my-5">
+    <h2 class="section-title">Shop by Category</h2>
+    <div class="row">
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Top" class="shop-category-image">
+        <div class="category-label">Top</div>
+      </div>
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Caps" class="shop-category-image">
+        <div class="category-label">Caps</div>
+      </div>
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Bag" class="shop-category-image">
+        <div class="category-label">Bag</div>
+      </div>
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Bottoms" class="shop-category-image">
+        <div class="category-label">Bottoms</div>
+      </div>
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Shirt" class="shop-category-image">
+        <div class="category-label">Shirt</div>
+      </div>
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Lowers" class="shop-category-image">
+        <div class="category-label">Lowers</div>
+      </div>
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Socks" class="shop-category-image">
+        <div class="category-label">Socks</div>
+      </div>
+      <div class="col-md-3 mb-4 category-container">
+        <img src="https://via.placeholder.com/400x400" alt="Shoes" class="shop-category-image">
+        <div class="category-label">Shoes</div>
+      </div>
+    </div>
+  </section>
+
+       <!-- About Us Section -->
+  <section class="about-us-section">
+    <div class="container">
+      <!-- Section Heading -->
+      <h2 class="about-us-heading">About Us</h2>
+
+      <!-- Bootstrap Tabs -->
+      <ul class="nav nav-tabs" id="aboutTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="company-tab" data-bs-toggle="tab" href="#company" role="tab" aria-controls="company" aria-selected="true">Our Company</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="mission-tab" data-bs-toggle="tab" href="#mission" role="tab" aria-controls="mission" aria-selected="false">Our Mission</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="vision-tab" data-bs-toggle="tab" href="#vision" role="tab" aria-controls="vision" aria-selected="false">Our Vision</a>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="aboutTabContent">
+        <!-- Our Company Tab -->
+        <div class="tab-pane fade show active" id="company" role="tabpanel" aria-labelledby="company-tab">
+          <h4>Our Company</h4>
+          <p>Luxe & Loom is a premier brand offering luxury home textiles, combining comfort, durability, and elegance. Our goal is to redefine home décor and provide the finest quality fabrics for modern living spaces.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+        <!-- Our Mission Tab -->
+        <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="mission-tab">
+          <h4>Our Mission</h4>
+          <p>Our mission is to bring unparalleled luxury to homes around the world. By providing premium textiles that blend style and functionality, we aim to create environments that inspire relaxation, beauty, and comfort.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+        <!-- Our Vision Tab -->
+        <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">
+          <h4>Our Vision</h4>
+          <p>We envision Luxe & Loom becoming a global leader in home textiles, setting new standards for luxury, sustainability, and innovation. We aim to provide our customers with high-quality, eco-friendly products that enrich their lives and living spaces.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+    <!-- Our Services Section -->
+    <section class="services-section">
+        <div class="container">
+          <!-- Section Heading -->
+          <h2 class="services-heading">Our Services</h2>
+          <p class="services-description">At Luxe & Loom, we offer a wide range of premium home textile services. Our goal is to provide products that bring elegance, comfort, and functionality to your living spaces. Explore our top services below!</p>
+    
+          <!-- Services Row (6 boxes in 2 rows) -->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Service Box 1 -->
+            <div class="col">
+              <div class="service-box">
+                <i class="fas fa-couch"></i>
+                <h4>Service 1</h4>
+                <p>Our expertly crafted textiles transform your home into a haven of luxury and comfort. From bed linens to throw pillows, we’ve got you covered.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+    
+            <!-- Service Box 2 -->
+            <div class="col">
+              <div class="service-box">
+                <i class="fas fa-tshirt"></i>
+                <h4>Service 2</h4>
+                <p>We offer custom fabric designs that match your unique style and preferences. Elevate your space with bespoke textiles tailored just for you.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+    
+            <!-- Service Box 3 -->
+            <div class="col">
+              <div class="service-box">
+                <i class="fas fa-blender"></i>
+                <h4>Service 3</h4>
+                <p>Our team provides expert consultation on fabric selection and interior design, ensuring that your home looks as beautiful as it feels.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+    
+            <!-- Service Box 4 -->
+            <div class="col">
+              <div class="service-box">
+                <i class="fas fa-paint-brush"></i>
+                <h4>Service 4</h4>
+                <p>Enhance your space with our decorative textiles. From drapery to cushions, we bring color and texture to every corner of your home.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+    
+            <!-- Service Box 5 -->
+            <div class="col">
+              <div class="service-box">
+                <i class="fas fa-cogs"></i>
+                <h4>Service 5</h4>
+                <p>Our professional installation services ensure that every piece fits perfectly, enhancing the beauty and functionality of your living spaces.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+    
+            <!-- Service Box 6 -->
+            <div class="col">
+              <div class="service-box">
+                <i class="fas fa-leaf"></i>
+                <h4>Service 6</h4>
+                <p>We are committed to sustainability. Our eco-friendly fabrics and designs help you create a beautiful home while protecting the planet.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact and Follow Section -->
+  <section class="container my-5">
+    <div class="row">
+      <!-- Left side: Contact Us -->
+      <div class="col-md-6">
+        <h3>Contact Us</h3>
+        <p><strong>Email:</strong> <a href="mailto:LuxesandLoom@yourcompany.com">Luxes&Loom@yourcompany.com</a></p>
+        <p><strong>Toll-Free Number:</strong> <a href="tel:+18001234567">+1 800 123 4567</a></p>
+        <p><strong>Address:</strong> 1234, Sector 62, Noida, Delhi, India</p>
+      </div>
+
+      <!-- Right side: Follow Us -->
+      <div class="col-md-6">
+        <h3>Follow Us</h3>
+        <div>
+          <a href="https://facebook.com/yourcompany" target="_blank" class="btn btn-outline-primary btn-sm">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="https://twitter.com/yourcompany" target="_blank" class="btn btn-outline-info btn-sm">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+          <a href="https://instagram.com/yourcompany" target="_blank" class="btn btn-outline-danger btn-sm">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://linkedin.com/company/yourcompany" target="_blank" class="btn btn-outline-primary btn-sm">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+     
+
+      <!-- Bootstrap JS and dependencies -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    
+
+  <!-- Bootstrap JS and dependencies -->
+   <script src="stylep.css"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
